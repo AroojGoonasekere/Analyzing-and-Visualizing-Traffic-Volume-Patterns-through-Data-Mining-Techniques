@@ -1,0 +1,38 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CfsSubsetEval -P 1 -E 1
+Search:       weka.attributeSelection.BestFirst -D 1 -N 5
+Relation:     Metro_Interstate_Traffic_Volume_final-weka.filters.unsupervised.attribute.Remove-R6,8-11-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+Instances:    7949
+Attributes:   8
+              holiday
+              temp
+              rain_1h
+              snow_1h
+              clouds_all
+              weather_description
+              hour
+              traffic_volume
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 30
+	Merit of best subset found:    0.349
+
+Attribute Subset Evaluator (supervised, Class (numeric): 8 traffic_volume):
+	CFS Subset Evaluator
+	Including locally predictive attributes
+
+Selected attributes: 1,2,7 : 3
+                     holiday
+                     temp
+                     hour
+
