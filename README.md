@@ -1,40 +1,80 @@
 # 🚦 Traffic Volume Analysis & Visualization Using Data Mining Techniques
 
 ## 📘 Project Overview
-This project analyzes traffic volume trends using the **Metro Interstate Traffic Volume Dataset**. It combines **Power BI** for interactive visualizations and **Weka** for data mining techniques (clustering and regression) to identify and predict traffic behavior based on time, weather, and holiday conditions.
+This project investigates traffic volume patterns using the [Metro Interstate Traffic Volume Dataset](https://www.kaggle.com/datasets/damianogalassi/traffic-volume?resource=download). It combines data mining techniques with dynamic data visualization to uncover insights from hourly, weather-related, and holiday-based traffic trends.
+
+---
+
+## 📸 Power BI Dashboard Preview
+
+![Traffic Dashboard](Dashboard.jpg)
+
+> Visual breakdown of traffic behaviors based on time of day, holiday schedules, and weather conditions. Implemented with slicers, KPIs, and comparison charts.
+
+---
 
 ## 🎯 Objectives
-- Explore traffic patterns using visual analytics.
-- Apply clustering and regression models for prediction.
-- Provide insights for traffic management and planning.
+
+- Analyze traffic trends using temporal and environmental attributes.
+- Apply data mining algorithms for pattern recognition and prediction.
+- Create meaningful visualizations through Power BI dashboards.
+- Derive insights to support transportation and urban planning.
+
+---
 
 ## 🛠 Tools & Technologies
-- **Visualization**: Microsoft Power BI
-- **Data Mining**: Weka (K-Means, Linear Regression, Attribute Selection)
-- **Dataset**: [Kaggle - Metro Interstate Traffic Volume](https://www.kaggle.com/datasets/damianogalassi/traffic-volume)
 
-## 📈 Key Findings
-- **Peak Hours**: 8 AM and 5–6 PM
-- **Weather Impact**: Clear weather increases traffic; rain/snow decreases it
-- **Holiday Effect**: Notable traffic drop during holidays
-- **Model Accuracy**: Linear regression yielded R ≈ 0.39 with `hour`, `temp`, and `holiday` as significant features
+- **Microsoft Power BI** – Interactive dashboard development  
+- **Weka** – Clustering & Regression analysis  
+- **Dataset** – [Kaggle: Metro Interstate Traffic Volume](https://www.kaggle.com/datasets/damianogalassi/traffic-volume?resource=download)
 
-## 📄 Deliverables
-- Power BI dashboard (.pbix)
-- WEKA files (.arff, .model)
-- Project report (2500 words) covering:
-  - Introduction
-  - Data visualization & analysis
-  - Data mining approach
-  - Ethical considerations
-  - Conclusions
+---
 
-## 👤 Contributors
+## 📊 Key Findings
+
+- **Rush Hour Peaks**: 8:00 AM and 5:00–6:00 PM
+- **Weather Effect**: Clear weather = increased traffic; rainy/snowy days = lower volume
+- **Holiday Drop**: Public holidays show significant dips in vehicle volume
+- **Model Accuracy**:
+  - Linear Regression R = 0.39
+  - Key influencing features: `hour`, `temp`, `holiday`
+
+---
+
+## 📁 Deliverables
+
+- `DW.pbix` – Power BI Dashboard File  
+- Weka Files – Clustering & Regression Models  
+- PDF Report – Includes:
+  - Dataset Cleaning
+  - Visual Analysis
+  - Preprocessing & Feature Selection
+  - Data Mining Interpretation
+  - Ethical Evaluation
+  - Business Intelligence Summary
+
+---
+
+## 👥 Team Members
+
 - A. Deshmiga – KAHMDISM24.1F-002  
 - D.H.A. Goonasekere – KAHMDISM24.1F-015  
 - T.G.N.D. Jayasinghe – KAHMDISM24.1F-016  
 - H.P.A.S.M. Kumari – KAHMDISM24.1F-017  
 - A.M. Weerasinghe – KAHMDISM24.1F-018  
 
-**Institution**: National Institute of Business Management (NIBM), Kandy   
-**Module**: Data Warehousing and Business Intelligence  
+**Institution**: National Institute of Business Management (NIBM), Kandy  
+**Module**: Data Warehousing & Business Intelligence  
+
+---
+
+## 📎 How to Use
+
+1. Download or clone this repository.
+2. Open `DW.pbix` in Microsoft Power BI to explore visuals.
+3. Use Weka to load `.arff` files for clustering and regression output.
+4. Refer to the project report for full documentation and evaluation.
+
+---
+
+> 🔍 This project demonstrates practical data science skills applied to real-world traffic problems using business intelligence tools and mining techniques.
